@@ -1,14 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JzbvZ6CgIdyQAy4YT+YsTfuAO1/b6XmjrzOES0dbDj0GZECz/1tc/EFwTHGaF2/A0HzShS8EozO3FhuuL3+4uQ==",
+  "dgSpecHash": "euXUqApj8tAhny6JkSjHUsqwSsKhj/XSnTpam9gdnAxncw1opNt3yKPrQENhzyKAim6yGCT+ZPHwua0vAAFOkA==",
   "success": true,
   "projectFilePath": "/home/vava/Documents/Game4Deviants/Devii/Devii/Devii.csproj",
   "expectedPackageFiles": [
     "/home/vava/.nuget/packages/spectre.console/0.45.0/spectre.console.0.45.0.nupkg.sha512",
     "/home/vava/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
-    "/home/vava/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/7.0.0/microsoft.netcore.app.runtime.linux-x64.7.0.0.nupkg.sha512",
     "/home/vava/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.0/microsoft.aspnetcore.app.ref.7.0.0.nupkg.sha512",
-    "/home/vava/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/7.0.0/microsoft.aspnetcore.app.runtime.linux-x64.7.0.0.nupkg.sha512",
     "/home/vava/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.0/microsoft.netcore.app.host.linux-x64.7.0.0.nupkg.sha512"
   ],
   "logs": []
