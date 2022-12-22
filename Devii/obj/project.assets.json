@@ -161,15 +161,7 @@
             "version": "[7.0.0, 7.0.0]"
           },
           {
-            "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-            "version": "[7.0.0, 7.0.0]"
-          },
-          {
             "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[7.0.0, 7.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Runtime.linux-x64",
             "version": "[7.0.0, 7.0.0]"
           }
         ],
