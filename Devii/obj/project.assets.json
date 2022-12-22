@@ -28,7 +28,7 @@
         }
       }
     },
-    "net7.0/linux-x64": {
+    "net7.0/win-x64": {
       "Spectre.Console/0.45.0": {
         "type": "package",
         "dependencies": {
@@ -161,7 +161,15 @@
             "version": "[7.0.0, 7.0.0]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[7.0.0, 7.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.0, 7.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
             "version": "[7.0.0, 7.0.0]"
           }
         ],
@@ -174,7 +182,7 @@
       }
     },
     "runtimes": {
-      "linux-x64": {
+      "win-x64": {
         "#import": []
       }
     }
