@@ -178,6 +178,7 @@ public sealed class LevelZero
                 break;
             case "Level 2":
                 optionsContainer.SelectedOption = MainMenuOptions.Level2;
+                MyGlobals.MySwitch = LevelAdjustingSwitch.LevelTwo;
                 break;
             case "Exit":
                 MyGlobals.MySwitch = LevelAdjustingSwitch.Exit;

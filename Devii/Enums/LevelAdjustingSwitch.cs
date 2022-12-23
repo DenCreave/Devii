@@ -4,5 +4,6 @@ public enum LevelAdjustingSwitch
 {
     Exit,
     MainMenu,
-    LevelOne
+    LevelOne,
+    LevelTwo
 }

@@ -8,6 +8,20 @@ namespace Devii.Handlers;
 
 public sealed class LevelHandler
 {
+    public static void Level_2()
+    {
+        LevelTwo.Level_2_Cinematic_1();
+        
+        if (LevelTwo.Level_2_Fight())
+        {
+            LevelTwo.Level_2_Win();
+        }
+        else
+        {
+            LevelTwo.Level_2_Lose();
+        }
+    }
+    
     public static void Level_1()
     {
         //cinematic of pre
@@ -54,7 +68,6 @@ public sealed class LevelHandler
                 }
                 case MainMenuOptions.Level2:
                 {
-                    throw new NotImplementedException("level 2 is not yet implemented");
                     return;
                 }
                 case MainMenuOptions.ChapterSelect:

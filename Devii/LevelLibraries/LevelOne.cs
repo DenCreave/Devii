@@ -198,8 +198,6 @@ public sealed class LevelOne
         });
         
         Console.Clear();
-        
-        //string waterfall=String.Empty;
 
         LandWaterfallModel waterfall = new LandWaterfallModel();
 

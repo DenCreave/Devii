@@ -19,10 +19,16 @@ public sealed class MyEventHandler
                 LevelHandler.Level_1();
                 break;
             }
-            /*case 2:
+            case LevelAdjustingSwitch.LevelTwo:
             {
+                LevelHandler.Level_2();
                 break;
-            }*/
+            }
+            default:
+            {
+                LevelHandler.Level_0();
+                break;
+            }
         }
     }
 }
