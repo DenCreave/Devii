@@ -339,8 +339,7 @@ public sealed class LevelOne
             AnsiConsole.Write(new Markup(UIOperator.ColoredStringBuilder("[salmon1]", "You have unlocked Level 2 in the chapter select! Moving forward, when you beat a level, you unlock it aswell in chapter select too")));
         }
         
-
-        Console.WriteLine("\nyou reached the end so far, go back");
+        
         Console.ReadKey();
         MyGlobals.MySwitch = LevelAdjustingSwitch.MainMenu;
 
