@@ -341,7 +341,7 @@ public sealed class LevelOne
         
         
         Console.ReadKey();
-        MyGlobals.MySwitch = LevelAdjustingSwitch.MainMenu;
+        MyGlobals.MySwitch = LevelAdjustingSwitch.LevelTwo;
 
     }
 
