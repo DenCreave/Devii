@@ -9,3 +9,5 @@ You can find description for skills in the Library. To be honest I'd recommend u
 and
 
 * Devii/bin/Debug/net7.0/win-x64/publish/Devii.exe
+
+Or you can just download the latest release version.
