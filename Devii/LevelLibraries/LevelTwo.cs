@@ -215,12 +215,13 @@ public sealed class LevelTwo
         SzimbaModel szimbaModel = new SzimbaModel();
         SzimbanolaModel szimbanolaModel = new SzimbanolaModel();
         string basicColor = "[orangered1]";
+        Style style1 = new Style(Color.OrangeRed1);
 
         AnsiConsole.Live(root).Start(ui =>
         {
             
             
-            root.UpdateCell(0,0, new Markup(UIOperator.ColoredStringBuilder(basicColor, $"Le big Szimba: \n\n\n{szimbaModel.Text}")));
+            root.UpdateCell(0,0, new Text( $"Le big Szimba: \n\n\n{szimbaModel.Text}",style1));
             //root.UpdateCell(0, 0, new Markup(UIOperator.ColoredStringBuilder(basicColor, $"Le big Szimba:\n\n{szimbaModel.Text}")));
             ui.Refresh();
             Thread.Sleep(2500);
@@ -229,7 +230,7 @@ public sealed class LevelTwo
             ui.Refresh();
             Thread.Sleep(2250);
             
-            root.UpdateCell(0, 0, new Markup(UIOperator.ColoredStringBuilder(basicColor, $"{szimbaModel.Text}\n\n\n     Not yet honey")));
+            root.UpdateCell(0, 0, new Text($"{szimbaModel.Text}\n\n\n     Not yet honey",style1));
             ui.Refresh();
             Thread.Sleep(2200);
             
